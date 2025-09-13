@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#icon{
+    color: white;
+
+}
+#h1{
+    display: flex;
+    justify-content: space-between;
+     border: 1px solid rgb(90, 201, 201);
+    background: rgb(90, 201, 201);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+#nav-icon{
+    display: flex;
+    gap: 8px;
+    margin-left: 50px;
+}
+#internet{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+}
+#header2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: 0px 2px 2px whitesmoke;
+    height: 100px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    background: white;
+}
+#header2-spacer {
+    width: 100%;
+    display: block;
+    height: 0;
+}
+
+.fixed-header2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blue{
+color: rgb(90, 201, 201);
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: larger;
+}
+#blue:hover{
+    color: black;
+    cursor: pointer;
+}
+#non{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(103, 103, 103);
+}
+#header:hover{
+cursor: pointer;
+color: rgb(90, 201, 201);
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#donate{
+    border: 2px solid rgb(52, 101, 101);
+    border-radius: 20px;
+    background: white;
+    height: 40px;
+    width: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background border ;
+}
+#donate:hover{
+    cursor: pointer;
+background: rgb(90, 201, 201);
+border: 2px solid rgb(90, 201, 201);
+}
+select{
+
+    border: none;
+    outline: none;
+    margin-top: -15px;
+    
+}
+select:hover{
+    cursor: pointer;
+    color: rgb(90, 201, 201) ;
+}
+#option{
+    border: none;
+    outline: none;
+}
+
+.carousel-control-next {
+    border: 2px solid  rgb(49, 139, 139);
+    background: rgb(49, 139, 139) ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+.carousel-control-prev {
+    border: 2px solid rgb(49, 139, 139);
+    background:rgb(49, 139, 139)  ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+.carousel-control-next:hover{
+    background: rgb(90, 201, 201) ;
+    border: 2px solid    rgb(90, 201, 201);
+}
+.carousel-control-prev:hover{
+    background:  rgb(90, 201, 201);
+    border: 2px solid  rgb(90, 201, 201) ;
+}
+
+.carousel-image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-35deg, white 30%, transparent 30%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.carousel-image-text {
+    position: absolute;
+    left: 930px;
+    top: 350px;
+    color: rgb(49, 139, 139) ;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 3;
+    width: 30%;
+    pointer-events: none;
+}
+#thief {
+    position: absolute;
+    left: 920px;
+    top: 400px;
+    color: rgb(49, 139, 139);
+    font-size: 1rem;
+    z-index: 3;
+    width: 30%;
+    pointer-events: none;
+}
+/* Main body*/
+.body{
+    margin-top: 60px;
+}
+#flex-items{
+display: flex;
+justify-content: space-evenly;
+gap: 6px;
+margin-top: 25px;
+text-align: center;
+}
+#welcome{
+    color: rgb(49, 139, 139) ;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.card{
+position: absolute;
+border: 1px solid white;
+background: whitesmoke;
+border-radius: 5px;
+box-shadow: 0px 6px 6px 0px whitesmoke;
+height: 200px;
+width: 200px;
+opacity: 0;
+transition: opacity 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#earth p{
+    color: rgb(49, 139, 139) ;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+}
