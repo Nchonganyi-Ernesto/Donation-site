@@ -227,3 +227,92 @@ section{
 #volunteer img{
     border-radius: 10px;
 }
+#section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#our-story-side{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(79, 75, 75);
+    font-weight: 600;
+}
+#kind{
+     font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 163, 163) ;
+    font-weight: 550;
+}
+#this{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 125, 125) ;
+    font-weight: 50;
+}
+#kind-heart{
+    border: 1px solid white;
+    height: 300px;
+    box-shadow: 0px 2px 2px 0px white;
+    background: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.tick-list{
+     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 125, 125)  ;
+    font-weight: 50;
+}
+#founded{
+      margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 125, 125)  ;
+    font-weight: 50;
+}
+#count{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 163, 163) ;
+    font-weight: 550;
+}
+#mission1{
+      border: 1px solid white;
+    box-shadow: 0px 2px 2px 0px white;
+    background: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 200px;
+}
+#number-count{
+    border: 1px solid white;
+    box-shadow: 0px 2px 2px 0px white;
+    background: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 190px;
+    height: 200px;
+}
+#sandy{
+    margin-top: 80px;
+    display: flex;
+    padding-left: 24%;
+    gap: 60px;
+}
+#icons{
+    display: flex;
+    gap: 3px;
+}
+#img img{
+    border-radius: 20px;
+}
+#chan{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 107, 101);
+    font-weight: 600;
+    padding-top: 60px;
+}
